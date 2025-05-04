@@ -1,4 +1,4 @@
-# 💳 Projeto SQL – Análise de Risco e Inadimplência
+![image](https://github.com/user-attachments/assets/0ad1a343-10a2-4a28-bb6d-073c4f3d7bc2)# 💳 Projeto SQL – Análise de Risco e Inadimplência
 
 ## 🎯 Objetivo  
 Executar consultas SQL básicas e avançadas para análise de **risco e inadimplência** em um cenário simulado de crédito.
@@ -24,7 +24,7 @@ Executar consultas SQL básicas e avançadas para análise de **risco e inadimpl
 - `parcelas`  
 
 ### **Inserção de Dados (via CSV)**  
-Após importar os arquivos `.csv` com os nomes `cliente`, `emprestimo` e `parcela`, os dados serão inseridos nas respectivas tabelas.
+Após importar os arquivos `.csv` com os nomes `cliente`, `emprestimo` e `parcela`, os dados serão inseridos nas respectivas tabelas no SQLite Online.
 
 ---
 
@@ -32,40 +32,39 @@ Após importar os arquivos `.csv` com os nomes `cliente`, `emprestimo` e `parcel
 
 ### 1. **Índice de Inadimplência**
 🔸 **Resultado**: O percentual do índice de inadimplência é de **19,9%**  
-
-![Índice de Inadimplência](https://github.com/user-attachments/assets/12fcbbbe-d15e-4926-87c8-c0b93bb365d5)
+![image](https://github.com/user-attachments/assets/b4393f80-763d-4820-a59b-1a3e4cd9743d)
 
 ---
 
 ### 2. **Clientes com Parcelas em Atraso**
 🔸 **Resultado**: A consulta traz o nome dos clientes que estão com ao menos uma parcela em atraso.
 
-![Clientes com Parcelas em Atraso](https://github.com/user-attachments/assets/a71ab321-59ff-4150-a2eb-c8247c22dc40)
+![image](https://github.com/user-attachments/assets/b978cc95-51f2-4a84-956a-35440a96a6d6)
+
 
 🔸 **Resultado**: Quantidade total de clientes inadimplentes: **18 clientes**
 
-![Total de Inadimplentes](https://github.com/user-attachments/assets/cd1dbea2-7f73-4dc3-a549-be45cbd27b90)
+![image](https://github.com/user-attachments/assets/71227cc7-a988-471a-bb09-c2edd73e96cd)
 
 ---
 
 ### 3. **Média de Dias de Atraso**
 🔸 **Resultado**: A média de dias de atraso das parcelas é de **7,9 dias**.
 
-![Média de Dias de Atraso](https://github.com/user-attachments/assets/fb5c13ba-11a1-44d3-8968-f9eaeedf1c28)
+![image](https://github.com/user-attachments/assets/013901b2-cc43-4542-a6b5-474c97857966)
 
 ---
 
 ### 4. **Segmentação por Faixa Etária**
 🔸 **Resultado**: Quantidade de inadimplentes distribuída por faixa etária.
 
-![Segmentação por Faixa Etária](https://github.com/user-attachments/assets/d9aa3bf5-e82d-4108-8902-9e1a7395854b)
+![image](https://github.com/user-attachments/assets/93f9c1b7-90a1-4511-a523-aba962f1d457)
 
 ---
 
 ### 5. **Histórico de Pagamentos por Cliente**
 🔸 **Resultado**: Histórico completo de pagamentos por cliente e empréstimo.
 
-![Histórico de Pagamentos](https://github.com/user-attachments/assets/e52766b3-6e0e-4ee7-9146-eb4f26cb3d1a)
 
 ---
 
@@ -78,4 +77,6 @@ Após importar os arquivos `.csv` com os nomes `cliente`, `emprestimo` e `parcel
 
 ## 📌 Considerações Finais
 
-Este projeto simula um cenário real de crédito, aplicando conceitos de análise de dados para entender o comportamento de pagamento dos clientes, identificar riscos e segmentar perfis.
+Este projeto simula um cenário fictício para analisar a inadimplência dos clientes de uma instituição financeira. Por meio da construção de um banco de dados relacional e do uso de comandos SQL, foi possível identificar padrões de comportamento entre clientes, detectar sinais de inadimplência e avaliar o risco associado a diferentes perfis de consumidores.
+O objetivo foi demonstrar como consultas simples podem gerar insights valiosos e auxiliar na tomada de decisões estratégicas.
+
