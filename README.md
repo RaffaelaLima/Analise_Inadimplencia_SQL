@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0ad1a343-10a2-4a28-bb6d-073c4f3d7bc2)# 💳 Projeto SQL – Análise de Risco e Inadimplência
+# 💳 Projeto SQL – Análise de Risco e Inadimplência
 
 ## 🎯 Objetivo  
 Executar consultas SQL básicas e avançadas para análise de **risco e inadimplência** em um cenário simulado de crédito.
@@ -65,6 +65,7 @@ Após importar os arquivos `.csv` com os nomes `cliente`, `emprestimo` e `parcel
 ### 5. **Histórico de Pagamentos por Cliente**
 🔸 **Resultado**: Histórico completo de pagamentos por cliente e empréstimo.
 
+![image](https://github.com/user-attachments/assets/57cfd89b-19ac-411e-a0a9-8e3866d8e8b0)
 
 ---
 
