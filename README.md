@@ -31,7 +31,8 @@ Após importar os arquivos `.csv` com os nomes `cliente`, `emprestimo` e `parcel
 ## 📊 Análise das Métricas
 
 ### 1. **Índice de Inadimplência**
-🔸 **Resultado**: O percentual do índice de inadimplência é de **19,9%**  
+🔸 **Resultado**: O percentual do índice de inadimplência é de **19,9%**   
+
 ![image](https://github.com/user-attachments/assets/b4393f80-763d-4820-a59b-1a3e4cd9743d)
 
 ---
